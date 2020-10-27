@@ -1,0 +1,18 @@
+summary: library(selinux-policy) wrapper
+description: |
+    This library downloads the real library(selinux-policy) from
+    https://src.fedoraproject.org/tests/selinux.git/selinux-policy/Library/common
+contact: Dalibor Pospíšil <dapospis@redhat.com>
+require:
+- library(libraries/wrapper)
+- library(distribution/epel)
+recommend:
+- setools
+- setools-console
+- expect
+- policycoreutils
+- /usr/sbin/semanage
+- selinux-policy-devel
+- yum-utils
+- python3
+- sqlite
