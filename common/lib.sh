@@ -43,7 +43,7 @@ This is a wrapper which will download the real library.
 
 
 rlSELibraryLoaded() {
-  rlRun "rlImport libraries/wrapper" || rlDie 'cannot import library(libraries/wrapper)'
+  rlRun "rlImport epel/epel libraries/wrapper" || rlDie 'cannot import library(libraries/wrapper) or library(epel/epel)'
   LibrariesWrapperImport "https://src.fedoraproject.org/tests/selinux.git" "" "selinux-policy/Library/common"
 }
 
