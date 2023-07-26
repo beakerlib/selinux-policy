@@ -5,7 +5,7 @@ description: |
 contact: Dalibor Pospíšil <dapospis@redhat.com>
 require:
 - library(libraries/wrapper)
-- library(epel/epel)
+- library(distribution/epel)
 recommend:
 - setools
 - setools-console
