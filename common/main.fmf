@@ -7,7 +7,7 @@ require:
 - library(libraries/wrapper)
 - library(distribution/epel)
 recommend:
-- setools
+- audit
 - setools-console
 - expect
 - policycoreutils
